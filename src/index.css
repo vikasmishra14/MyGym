@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+.imageCont {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+
+.dietContainer {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    line-height: 25px;
+}
+
+.ant-menu-item-selected {
+    background-color: rgb(222, 146, 6) !important;
+}
